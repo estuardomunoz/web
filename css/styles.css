@@ -1,0 +1,64 @@
+.nav {
+    display: flex;
+    background-color: #ff9f00;
+    display: block;
+    position: relative;
+    top:50px;
+}
+.logo {
+    max-width: 15%;
+    border: 5px solid #2C0688;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    background-color: #2C0688;
+    top: 5%;
+    padding: 0px;
+    position: relative;
+    width: 15%;
+    height: 15%;
+}
+
+.logo:hover {
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.logo-container{
+    background-color: #00A482;
+    position: sticky;
+    max-height: 100px;
+}
+.nav ul li {
+    background-color: linear-gradient #00A385;
+    color: #fff;
+    display: inline;
+    
+}
+
+.main-header {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 20%, rgba(42,12,134,1) 68%, rgba(42,12,134,1) 100%);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    height: 27%;
+}
+
+.header-container {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 20%, rgba(42,12,134,1) 68%, rgba(42,12,134,1) 100%);
+    background-image: url( "../img/DSC_4206.jpg");
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    display: flexbox;
+    width: 100%;
+    z-index: 1000;
+
+
+}
